@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#glock-container{
+    width: 50vw;
+    height: 60vh;
+    margin: 20vh auto;
+    border: 2px solid black;
+    position: relative;
+}
+
+#slide-container{
+    background-color: rgb(110, 110, 110);
+    width: 80%;
+    height: 125px;
+    border-radius: 12px 12px 12px 0 ;
+    position: absolute;
+    top: 100px;
+    left: 55%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#front-sight{
+    width: 0;
+    border-bottom: 15px solid transparent;
+    border-top: 5px solid transparent;
+    border-left: 15px solid rgb(71, 71, 71);
+    height: 25px ;
+    rotate: -90deg;
+    position: absolute;
+    left: 92%;
+    top: -29px;
+    z-index: -1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#rear-sight{
+    width: 0;
+    border-bottom: 15px solid transparent;
+    border-top: 5px solid transparent;
+    border-left: 17px solid rgb(71, 71, 71);
+    height: 40px ;
+    rotate: -90deg;
+    position: absolute;
+    left: 5%;
+    top: -37px;
+    z-index: -1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#screw{
+    background-color: rgb(41, 41, 41);
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    position: absolute;
+    top: -12px;
+    left: 27px;
+}
+
+#screw-dent{
+    background-color: black;
+    width: 2px;
+    height: 10px;
+    transform-origin: center;
+    position: absolute;
+    left: 32px;
+    top: -11px;
+    rotate: 30deg;
+}
+
+#port{
+    background-color: grey;
+    width: 125px;
+    height: 50px;
+    border-radius: 0 0 10rem 40px;
+    position: absolute;
+    left: 300px
+}
+
+#port-detail{
+    background-color: grey;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px 0 0 10px;
+    position: absolute;
+    left: 250px;
+    top: 16px;
+}
+
+.stiple{
+    background-color: grey;
+    height: 110px;
+    width: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 7px;
+}
+
+#stiple1{
+    left: 30px;
+}
+#stiple2{
+    left: 50px;
+}
+#stiple3{
+    left: 70px;
+}
+#stiple4{
+    left: 90px;
+}
+#stiple5{
+    left: 110px;
+}
+#stiple6{
+    left: 130px;
+}
