@@ -351,6 +351,14 @@
     left: 908px;
     top: 200px
 }
+#white-cover18{
+    width: 600px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 500px;
+    left: 400px
+}
 #black-extra2{
     width: 300px;
     border-top: 10px solid rgb(22, 22, 22);
