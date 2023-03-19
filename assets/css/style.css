@@ -13,12 +13,12 @@
 
 #slide-container{
     background-color: rgb(110, 110, 110);
-    width: 80%;
+    width: 768px;
     height: 125px;
     border-radius: 12px 12px 0px 0 ;
     position: absolute;
     top: 100px;
-    left: 55%;
+    left: 528px;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -125,7 +125,7 @@
 
 #frame-main{
     background-color: rgb(29, 29, 29);
-    width: 85%;
+    width: 816px;
     height: 350px;
     position: absolute;
     left: 96px;
@@ -141,6 +141,7 @@
     left: 562px;
     top: 210px;
     border-radius: 10px 0 0 0 ;
+    box-shadow: rgb(37, 37, 37) 0 -10px 0 0;
 }
 #white-cover2{
     background-color: white;
@@ -170,6 +171,7 @@
     left: 84px;
     top: 370px;
     border-radius: 100% 0 0 0;
+    box-shadow: rgb(48, 48, 48) -10px 0  
 }
 
 #white-cover4{
@@ -177,10 +179,11 @@
     position: absolute;
     width: 200px;
     height: 100px;
-    border-radius: 30px;
+    border-radius: 30px 0 0 0px;
     left: 540px;
-    top: 210px
-}
+    top: 210px;
+    box-shadow: -10px -10px  0 0 rgb(37, 37, 37);
+ }
 #white-cover5{
     background-color: white;
     position: absolute;
@@ -247,6 +250,46 @@
     rotate: -35deg;
 }
 #white-cover12{
-
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 525px;
+    top: 280px;
+    rotate: 30deg;
 }
-    
+
+#white-cover13{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 30px;
+    top: 155px;
+    rotate: -35deg;
+}
+
+#white-cover14{
+    background-color: white;
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    left: 810px;
+    top: 205px;
+}
+#white-cover15{
+    background-color: white;
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    left: 860px;
+    top: 205px;
+}
+   #white-cover16{
+    background-color: white;
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    left: 760px;
+    top: 205px;
+   } 
