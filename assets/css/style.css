@@ -3,12 +3,50 @@
     padding: 0;
 }
 
+#body{
+    overflow: hidden
+}
+
+#fire-btn{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 50vw;
+    top: 600px;
+    background-color: red;
+    border-radius: 12px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.603) 5px 10px 20px 0;
+    font-size: 30px;
+    color:rgb(255, 255, 255)
+}
+
+#fire-btn:hover{
+    cursor: pointer;
+}
+
 #glock-container{
     width: 50vw;
     height: 60vh;
-    margin: 20vh auto;
-    border: 2px solid black;
+    margin: 20vh 35vw 20vh 15vw;
     position: relative;
+    transform-origin: bottom left;
+    border: none;
+}
+
+#barrel-assembly{
+    z-index: -1;
+}
+
+#barrel{
+    background-color: rgb(37, 37, 37);
+    height: 60px;
+    width: 400px;
+    position: absolute;
+    left: 520px;
+    top: 75px;
+    border-radius: 5px;
+
 }
 
 #slide-container{
@@ -22,6 +60,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    z-index: 2;
 }
 
 #front-sight{
@@ -98,7 +137,6 @@
     background-color: grey;
     height: 120px;
     width: 10px;
-    /* border-radius: 6px; */
     position: absolute;
     top: 3px;
     box-shadow: rgba(0, 0, 0, 0.397) 5px 0 10px 0px inset
@@ -131,6 +169,7 @@
     left: 96px;
     top: 160px;
     border-radius: 60px 0 0 0 ;
+    z-index: 0;
 }
 
 #white-cover1{
@@ -142,6 +181,7 @@
     top: 210px;
     border-radius: 10px 0 0 0 ;
     box-shadow: rgb(37, 37, 37) 0 -10px 0 0;
+    border: none;
 }
 #white-cover2{
     background-color: white;
@@ -152,6 +192,7 @@
     top: 190px;
     border-radius: 100px 100px 100% 100px;
     rotate: 12deg;
+    box-shadow: rgb(37, 37, 37) 10px 0  
 }
 #white-cover3{
     background-color: white;
@@ -161,6 +202,7 @@
     left: 20px;
     top: 400px;
     rotate: 12deg;
+    
 }
 
 #black-extra1{
@@ -171,7 +213,7 @@
     left: 84px;
     top: 370px;
     border-radius: 100% 0 0 0;
-    box-shadow: rgb(48, 48, 48) -10px 0  
+    box-shadow: rgb(37, 37, 37) -10px 0  
 }
 
 #white-cover4{
@@ -189,7 +231,9 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    top: 510px
+    top: 510px;
+    z-index: 0;
+    
 }
 #white-cover6{
     background-color: white;
@@ -199,6 +243,7 @@
     left: 60px;
     top: 456px;
     rotate: -60deg;
+    
 }
 #white-cover7{
     background-color: white;
@@ -206,7 +251,7 @@
     width: 150px;
     height: 200px;
     left: 420px;
-    top: 310px
+    top: 310px;
 }
 #white-cover8{
     background-color: white;
@@ -217,6 +262,7 @@
     top: 310px;
     rotate: 10deg;
     border-radius: 40px 0 0 0;
+    
 }
 #white-cover9{
     background-color: white;
@@ -237,6 +283,7 @@
     top: 210px;
     border-radius: 100% 50px 50px 100%;
     rotate: -1deg;
+    box-shadow: rgb(37, 37, 37) 0px -10px 0 0, rgb(37, 37, 37) -10px 0px 0 5px;
 }
 #white-cover11{
     position: absolute;
@@ -293,3 +340,191 @@
     left: 760px;
     top: 205px;
    } 
+#black-extra2{
+    width: 300px;
+    border-top: 10px solid rgb(22, 22, 22);
+    border-bottom: 10px solid rgb(39, 39, 39);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    left: 580px;
+    top: 170px
+}
+#black-extra3{
+    width: 140px;
+    height: 75px;
+    border-radius: 100px 100% 100% 50% ;
+    box-shadow: rgb(24, 24, 24) -10px -10px 10px 0 inset;
+    position: absolute;
+    left: 230px;
+    top: 190px
+}
+#black-extra4{
+    background-color: rgb(29, 29, 29);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 350px;
+    left: 172px;
+    rotate: 25deg;
+}
+#black-extra5{
+    height: 180px;
+    width: 50px;
+    background-color: transparent;
+    box-shadow: rgb(37, 37, 37) 10px 0 inset;
+    position: absolute;
+    left: 342px;
+    top: 290px;
+    rotate: 17deg;
+    border-radius: 5rem 0 0 5px;
+}
+#black-extra6{
+    width: 123px;
+    height: 210px;
+    position: absolute;
+    top: 280px;
+    left: 190px;
+    transform: skew(-18deg);
+    border-radius: 20px;
+    background-image: url("../images/NicePng_texture-png_249624.png");
+    background-size: cover;
+    filter: invert(0.1);
+}
+
+#trigger{
+    background-color: transparent;
+    height: 60px;
+    width: 30px;
+    position: absolute;
+    top: 210px;
+    left: 460px;
+    box-shadow: rgb(37, 37, 37) -30px 0 0;
+    border-radius: 10px 0 0 100%;
+}
+#black-extra7{
+    width: 30px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    left: 450px;
+    top: 210px;
+    border-radius: 40%;
+    rotate: -5deg;
+}
+
+#mag-body{
+    background-color: rgb(19, 19, 19);
+    height: 10px;
+    width: 140px;
+    position: absolute;
+    top: 510px;
+    left: 165px;
+    transform: skew(-12deg);
+    z-index: 0;
+}
+#mag-base{
+    background-color: rgb(37, 37, 37);
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    top: 515px;
+    left: 140px;
+    border-radius: 30px 10px 10px 10px;
+}
+
+#flash{
+    width: 500px;
+    height: 400px;
+    background-image: url("../images/muzzle-flash.png");
+    position: absolute;
+    left: 900px;
+    top: -150px;
+    opacity: 0;
+}
+#casing{
+    background-color: gold;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    box-shadow: rgba(128, 128, 128, 0.363) -10px 0px 10px 5px inset, rgba(122, 124, 1, 0.418) 0px 5px 8px 0 inset;
+    position: absolute;
+    left: 350px;
+    top: 40px;
+    z-index: 2;
+    opacity: 0%;
+}
+#casing-indent{
+    background-color: goldenrod;
+    width: 3px;
+    height: 40px;
+    z-index: 3;
+    position: absolute;
+    left: 5px;
+}
+
+
+.slide-animate{
+    animation: slide 0.2s;
+}
+
+.recoil-animate{
+    animation: recoil 0.2s
+}
+
+.flash-animate{
+    animation: flash 0.05s
+}
+
+.casing-animate{
+    animation: casing 1s
+}
+
+@keyframes slide{
+    0%{left: 528px;}
+    80%{left: 328px;}
+    100%{left: 528px;}
+}
+
+@keyframes recoil{
+    0%{rotate: 0deg;}
+    50%{rotate: -10deg;}
+    100%{rotate: 0deg;}
+}
+
+@keyframes flash{
+ 0%{opacity: 0%;}
+ 50%{opacity: 100%;}
+ 100%{opacity: 0%;}
+}
+
+@keyframes casing{
+    0%{
+        left: 350px;
+        top: 40px;
+        opacity: 0%;
+        rotate: 0deg;
+    }
+    5%{
+        opacity: 100%;
+    }
+    20%{
+        left: 150px;
+        top: -100px;
+    }
+    90%{opacity: 100%;}
+    100%{
+        rotate: -1280deg;
+        top: 690px;
+        left: 0px;
+        opacity: 0%;
+    }
+}
+@media screen and (max-width: 1200px){
+    #glock-container{
+        margin: 20vh 45vw 20vh 5vw
+    }
+    #fire-btn{
+        left: 70vw;
+    }
+}
