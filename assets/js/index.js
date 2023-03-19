@@ -1,5 +1,9 @@
+const gunshot = document.getElementById("gunshot")
+
 
 function animations(){
+
+    gunshot.play()
 
     document.getElementById("slide-container").classList.add("slide-animate")
     document.getElementById("glock-container").classList.add("recoil-animate")
