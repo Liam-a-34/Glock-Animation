@@ -15,7 +15,7 @@
     background-color: rgb(110, 110, 110);
     width: 80%;
     height: 125px;
-    border-radius: 12px 12px 12px 0 ;
+    border-radius: 12px 12px 0px 0 ;
     position: absolute;
     top: 100px;
     left: 55%;
@@ -96,12 +96,12 @@
 
 .stiple{
     background-color: grey;
-    height: 110px;
+    height: 120px;
     width: 10px;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     position: absolute;
-    top: 7px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    top: 3px;
+    box-shadow: rgba(0, 0, 0, 0.397) 5px 0 10px 0px inset
 }
 
 #stiple1{
@@ -122,3 +122,131 @@
 #stiple6{
     left: 130px;
 }
+
+#frame-main{
+    background-color: rgb(29, 29, 29);
+    width: 85%;
+    height: 350px;
+    position: absolute;
+    left: 96px;
+    top: 160px;
+    border-radius: 60px 0 0 0 ;
+}
+
+#white-cover1{
+    background-color: white;
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    left: 562px;
+    top: 210px;
+    border-radius: 10px 0 0 0 ;
+}
+#white-cover2{
+    background-color: white;
+    position: absolute;
+    width: 100px;
+    height: 250px;
+    left: 75px;
+    top: 190px;
+    border-radius: 100px 100px 100% 100px;
+    rotate: 12deg;
+}
+#white-cover3{
+    background-color: white;
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    left: 20px;
+    top: 400px;
+    rotate: 12deg;
+}
+
+#black-extra1{
+    background-color: rgb(29, 29, 29);
+    width: 110px;
+    height: 300px;
+    position: absolute;
+    left: 84px;
+    top: 370px;
+    border-radius: 100% 0 0 0;
+}
+
+#white-cover4{
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border-radius: 30px;
+    left: 540px;
+    top: 210px
+}
+#white-cover5{
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 510px
+}
+#white-cover6{
+    background-color: white;
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    left: 60px;
+    top: 456px;
+    rotate: -60deg;
+}
+#white-cover7{
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    left: 420px;
+    top: 310px
+}
+#white-cover8{
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    height: 230px;
+    left: 350px;
+    top: 310px;
+    rotate: 10deg;
+    border-radius: 40px 0 0 0;
+}
+#white-cover9{
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    height: 190px;
+    left: 335px;
+    top: 350px;
+    rotate: 17deg;
+    border-radius: 0 0 20px 40%;
+}
+#white-cover10{
+    background-color: white;
+    position: absolute;
+    width: 130px;
+    height: 80px;
+    left: 390px;
+    top: 210px;
+    border-radius: 100% 50px 50px 100%;
+    rotate: -1deg;
+}
+#white-cover11{
+    position: absolute;
+    background-color: transparent;
+    border-bottom: 10px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    left: 865px;
+    top: 160px;
+    rotate: -35deg;
+}
+#white-cover12{
+
+}
+    
