@@ -5,6 +5,7 @@ function animations(){
 
     gunshot.play()
 
+    document.getElementById("trigger").classList.add("trigger-animate")
     document.getElementById("slide-container").classList.add("slide-animate")
     document.getElementById("glock-container").classList.add("recoil-animate")
     document.getElementById("flash").classList.add("flash-animate")
@@ -17,6 +18,7 @@ function animations(){
         document.getElementById("glock-container").classList.remove("recoil-animate")
         document.getElementById("flash").classList.remove("flash-animate")
         document.getElementById("casing").classList.remove("casing-animate")
+        document.getElementById("trigger").classList.remove("trigger-animate")
     }, 1100)
 
 }

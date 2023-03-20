@@ -420,14 +420,15 @@
     left: 460px;
     box-shadow: rgb(37, 37, 37) -30px 0 0;
     border-radius: 10px 0 0 100%;
+    transform-origin: top left;
 }
 #black-extra7{
     width: 30px;
     height: 60px;
     background-color: white;
     position: absolute;
-    left: 450px;
-    top: 210px;
+    left: -8px;
+    top: 0px;
     border-radius: 40%;
     rotate: -5deg;
 }
@@ -499,6 +500,10 @@
     animation: casing 1s
 }
 
+.trigger-animate{
+    animation: trigger 0.5s
+}
+
 @keyframes slide{
     0%{left: 528px;}
     80%{left: 328px;}
@@ -515,6 +520,12 @@
  0%{opacity: 0%;}
  50%{opacity: 100%;}
  100%{opacity: 0%;}
+}
+
+@keyframes trigger{
+    0%{rotate: 0deg;}
+    50%{rotate: 30deg;}
+    100%{rotate: 0deg;}
 }
 
 @keyframes casing{
